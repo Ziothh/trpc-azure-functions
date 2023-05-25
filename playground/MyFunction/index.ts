@@ -1,6 +1,6 @@
 import { initTRPC } from '@trpc/server';
 import { z } from "zod";
-import { createHttpTriggerFunction } from '../../src/lib';
+import { createHttpTriggerFunction } from '../../src';
 
 const t = initTRPC.create();
 const publicProcedure = t.procedure;
