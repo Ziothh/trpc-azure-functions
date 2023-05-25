@@ -1,0 +1,21 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@trpc/server": "^10.28.0",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@azure/functions": "^3.5.1",
+    "@types/node": "^18.2.3",
+    "typescript": "^5.0.4"
+  }
+}
